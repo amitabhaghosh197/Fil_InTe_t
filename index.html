@@ -30,7 +30,8 @@ body{
     <h1>Fil_InTe_t</h1>
     <p>
     <h3>How to use:</h3>
-    <code>$('.orderFill').Fil_InTe_t({speed: 'normal', random: false, delay: 500});</code>
+    <code>$('.orderFill').Fil_InTe_t({speed: 'normal', random: false, delay: 500, replaceChar: '_'});</code><br>
+    Kindly remind that <code>word-wrap: break-word;</code> will make a better performance on English
     </p>
     <p>
     <button class="btn" onclick="$('.orderFill').Fil_InTe_t({speed:'slow', random: false, delay: 0})">slow</button>
@@ -40,6 +41,8 @@ body{
     <p>
     <button class="btn" onclick="$('.orderFill').Fil_InTe_t({speed:'normal', random: true, delay: 0})">random</button> 
     <button class="btn" onclick="$('.orderFill').Fil_InTe_t({speed:'normal', random: false, delay: 1000})">delay</button>
+    <button class="btn" onclick="$('.orderFill').Fil_InTe_t({speed:'normal', random: false, delay: 0, replaceChar: $('#replaceText').val()})">replace with:</button>
+    <input id="replaceText" type="text" value="*" maxlength="1" style="height: 30px;width: 50px; vertical-align: top"/>
     </p>
     <div id="testdiv1" class="orderFill">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
