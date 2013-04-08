@@ -12,4 +12,4 @@ How to use:
 Kindly remind that ```word-wrap: break-word;``` will make a better performance on English
 
 
-[demo]: http://htmlpreview.github.com/?https://github.com/mingchoi/Fil_InTe_t/blob/master/index.html
+[demo]: http://mingchoi.github.io/Fil_InTe_t/
